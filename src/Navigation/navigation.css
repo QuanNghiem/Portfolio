@@ -1,0 +1,33 @@
+.nav_bar {
+    height: fit-content;
+    background-color: #282c34;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.title {
+    /* font-size: 1.8rem; */
+    margin: 0;
+    color: #61dafb;
+    letter-spacing: .01rem;
+}
+
+.nav_link {
+    font-size: 1.8rem;
+    color: antiquewhite;
+}
+
+.nav_icon {
+    font-size: 1.8rem;
+    color: antiquewhite;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .nav_bar {
+        justify-content: space-between;
+    }
+}

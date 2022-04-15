@@ -1,0 +1,13 @@
+.icon {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3.5rem;
+    /* margin: 0.4rem 1.2rem; */
+}
+
+.tech_icon {
+    font-size: 3.5rem;
+}
