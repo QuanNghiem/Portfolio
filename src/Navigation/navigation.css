@@ -16,7 +16,13 @@
 
 .nav_link {
     font-size: 1.8rem;
-    color: antiquewhite;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.nav_link:hover {
+    /* color: #61dafb; */
+    text-decoration: underline;
 }
 
 .nav_icon {
@@ -24,6 +30,9 @@
     color: antiquewhite;
 }
 
+.nav_collapsed {
+    background-color: #282c34;
+}
 
 
 @media only screen and (max-width: 600px) {

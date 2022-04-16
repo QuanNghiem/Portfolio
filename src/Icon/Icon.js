@@ -10,13 +10,6 @@ class Icon extends React.Component {
                     { this.props.data.iconName }
                 </p>
             </div>
-
-            {/* <div className='icon_container'>
-                <i className="devicon-html5-plain colored tech_icon"></i>
-                <p >
-                    HTML
-                </p>
-            </div> */}
         </div>
     }
 }

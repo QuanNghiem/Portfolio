@@ -1,0 +1,94 @@
+{
+    "data": [
+        {
+            "img": "/portfolio.png",
+            "title": "My Portfolio",
+            "description": "You are here. This website is created using React and HTML/CSS to provide a reponsive layout for phone/tablet/desktop.",
+            "tech": [
+                "React",
+                "HTML",
+                "CSS",
+                "Javascript (ES6)"
+            ],
+            "link": [
+                {
+                    "src": "https://simmer.io/@Trikster/shifter",
+                    "title": "Live Site"
+                }
+            ]
+        },
+        {
+            "img": "/BillTracker.png",
+            "title": "Bill Tracker",
+            "description": "A web application that allows user to enter their bills and display all of it in a table format hosted on MongoDB Atlas. Angular is hosted on Github.io with Express server hosted on Heroku. Future plan: charts and statistics for users' spending habits!",
+            "tech": [
+                "Angular",
+                "HTML",
+                "CSS",
+                "Javascript (ES6)",
+                "Typescript",
+                "MongoDB",
+                "NoSQL",
+                "ExpressJS"
+            ],
+            "link": [
+                {
+                    "src": "https://quannghiem.github.io/Bill-Tracker/",
+                    "title": "Live Site"
+                },
+                {
+                    "src": "https://github.com/QuanNghiem/Bill-Tracker",
+                    "title": "Github"
+                }
+            ]
+        },
+        {
+            "img": "/DemoRamp.gif",
+            "title": "VR Engineering Education",
+            "description": "A Unity application that replicates engineering models within the virtual space with the aim to improve users' problems solving skills and understanding of physics in 3D space",
+            "tech": [
+                "Unity",
+                "C#",
+                "SteamVR",
+                "OculusRift"
+            ],
+            "link": [
+                {
+                    "src": "https://github.com/CSLagomorph/VR-ENGR-EDU",
+                    "title": "Github"
+                }
+            ]
+        },
+        {
+            "img": "/collabware.png",
+            "title": "Collabware",
+            "description": "An Android application that allow users' to search for teammates to collaborate on tech projects",
+            "tech": [
+                "Dart",
+                "Flutter",
+                "Firebase"
+            ],
+            "link": [
+                {
+                    "src": "https://github.com/OmarIqbal395/UWB-Hacks-The-Cloud-2020",
+                    "title": "Github"
+                }
+            ]
+        },
+        {
+            "img": "/Shifter.png",
+            "title": "Shifter",
+            "description": "A Unity game made in the style of a classic scroller shooter with the option to swtich to 3rd person shooter",
+            "tech": [
+                "Unity",
+                "C#"
+            ],
+            "link": [
+                {
+                    "src": "https://simmer.io/@Trikster/shifter",
+                    "title": "Live Site"
+                }
+            ]
+        }
+    ]
+}

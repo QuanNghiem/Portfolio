@@ -1,0 +1,59 @@
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 70%;
+    justify-content: center;
+}
+
+.acc_btn {
+    height: 5rem;
+    font-size: 1.5rem;
+}
+
+.acc_sign {
+    font-size: 2rem;
+}
+
+.acc_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    /* font-size: 1.5rem; */
+}
+
+.acc_active {
+    background-color: #282c34;
+    color: #61dafb;
+}
+
+/* .parent .child img {
+    width: 100%;
+    height: auto;
+} */
+
+.parent .child {
+    flex: 1 1 50%;
+    /* padding: 1rem 2.5rem 1rem 2.5rem; */
+}
+
+.child {
+    /* margin-bottom: 3rem; */
+    max-width: 100%;
+    border-left: 0.01rem solid #282c34;
+    border-right: 0.01rem solid #282c34;
+    /* border-left: 0.1rem solid #282c34; */
+}
+
+@media only screen and (max-width: 768px) {
+    .parent {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .child {
+        max-width: 100%;
+    }
+}
